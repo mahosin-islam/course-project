@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    #about{
+      display: none;
+    }
+    .home{
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <h2 id="btn">bangladesh is beautyful country </h2>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum consequuntur quod enim, et voluptas pariatur. Dolorem eaque fugiat autem natus aspernatur voluptatibus ut, quos aliquid voluptatum ipsam vitae doloremque odio suscipit magnam distinctio minima quae vero eum numquam est adipisci? <span id="about">Et eaque dolorum fuga quia qui ipsa voluptate. Ratione temporibus sequi tempore dolores mollitia corrupti vero consequuntur similique, vitae incidunt pariatur quaerat sunt nisi doloremque repellendus totam nulla quis voluptatibus. Facilis delectus fugit nesciunt pariatur earum laudantium distinctio dicta nemo.</span> <span onclick="showe()" class="home">..more</span>
+  </p>
+  <script>
+document.getElementById('btn').style.color='red';
+
+    function showe(){
+      document.getElementById('about').style.display="inline";
+      document.querySelector('.home').style.display="none";
+    }
+
+  </script>
+</body>
+</html>

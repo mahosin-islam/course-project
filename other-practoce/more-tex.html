@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    #about{
+        display: none;
+    }
+    .home{
+        cursor: pointer;
+    }
+</style>
+</head>
+<body>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor explicabo impedit et vel blanditiis non debitis. Nihil vel quos <span id="about">corrupti deleniti quod. Voluptate, reiciendis natus ea at voluptatibus aperiam labore non dolorum neque porro culpa enim. Quod dicta rerum tempora quas ea, voluptate labore repellat molestias dolores aspernatur error numquam ullam doloribus nesciunt cum amet omnis facere laudantium! Perspiciatis quasi quam soluta tempore magnam ipsum deserunt, provident mollitia illum fugit voluptatem, dignissimos tenetur? Saepe dolorem iste deserunt id a neque</span>
+        <span class="home" onclick="showe()">..more</span>
+    </p>
+
+    <script>
+        function showe(){
+            document.getElementById('about').style.display= "inline";
+            document.querySelector('.home').style.display='none'
+        }
+    </script>
+</body>
+</html>
